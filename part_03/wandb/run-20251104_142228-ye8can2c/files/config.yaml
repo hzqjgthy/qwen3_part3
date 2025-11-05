@@ -1,0 +1,70 @@
+_wandb:
+    value:
+        cli_version: 0.22.3
+        e:
+            uokjd7ikdveef12zc67cv95ugyereu0m:
+                codePath: Qwen3高效微调（下）.ipynb
+                codePathLocal: Qwen3高效微调（下）.ipynb
+                cpu_count: 56
+                cpu_count_logical: 112
+                cudaVersion: "12.8"
+                disk:
+                    /:
+                        total: "32212254720"
+                        used: "23140433920"
+                email: 2745794229@qq.com
+                executable: /root/miniconda3/envs/unsloth/bin/python
+                git:
+                    commit: 67cd8acebb64b7fd23c201fde65bbf3266484395
+                    remote: https://github.com/hzqjgthy/qwen.git
+                gpu: NVIDIA GeForce RTX 3090
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 10496
+                      memoryTotal: "25769803776"
+                      name: NVIDIA GeForce RTX 3090
+                      uuid: GPU-ebb0e1b6-b31c-4dce-4563-0e48282603d6
+                host: autodl-container-38ef40b880-5230bcd6
+                memory:
+                    total: "810970427392"
+                os: Linux-5.15.0-94-generic-x86_64-with-glibc2.35
+                program: Qwen3高效微调（下）.ipynb
+                python: CPython 3.12.12
+                root: /root/qwen/part_03
+                startedAt: "2025-11-04T06:22:28.743787Z"
+                writerId: uokjd7ikdveef12zc67cv95ugyereu0m
+        m: []
+        python_version: 3.12.12
+        t:
+            "1":
+                - 1
+                - 11
+                - 41
+                - 49
+                - 51
+                - 71
+                - 83
+                - 84
+                - 95
+                - 98
+            "2":
+                - 1
+                - 11
+                - 41
+                - 49
+                - 51
+                - 71
+                - 83
+                - 84
+                - 95
+                - 98
+            "3":
+                - 2
+            "4": 3.12.12
+            "5": 0.22.3
+            "6": 4.57.1
+            "8":
+                - 1
+            "12": 0.22.3
+            "13": linux-x86_64

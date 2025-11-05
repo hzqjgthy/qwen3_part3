@@ -1,0 +1,56 @@
+2025-11-03 23:20:37 - evalscope - INFO: Running with native backend
+2025-11-03 23:20:37 - evalscope - INFO: Dump task config to ./outputs/20251103_232037/configs/task_config_ebe047.yaml
+2025-11-03 23:20:37 - evalscope - INFO: {
+    "model": "/root/autodl-tmp/Qwen3/Qwen3-4B-unsloth-bnb-4bit",
+    "model_id": "Qwen3-4B-unsloth-bnb-4bit",
+    "model_args": {},
+    "model_task": "text_generation",
+    "chat_template": null,
+    "datasets": [
+        "data_collection"
+    ],
+    "dataset_args": {
+        "data_collection": {
+            "dataset_name": "qwen3_test",
+            "dataset_path": "/root/autodl-tmp/datasets"
+        }
+    },
+    "dataset_dir": "/root/.cache/modelscope/hub/datasets",
+    "dataset_hub": "modelscope",
+    "repeats": 1,
+    "generation_config": {
+        "timeout": 60000,
+        "batch_size": 128,
+        "stream": true,
+        "max_tokens": 30000,
+        "top_p": 0.95,
+        "temperature": 0.6,
+        "top_k": 20,
+        "n": 1
+    },
+    "eval_type": "openai_api",
+    "eval_backend": "Native",
+    "eval_config": null,
+    "limit": 2000,
+    "eval_batch_size": 128,
+    "use_cache": null,
+    "rerun_review": false,
+    "work_dir": "./outputs/20251103_232037",
+    "ignore_errors": false,
+    "debug": false,
+    "seed": 42,
+    "api_url": "http://127.0.0.1:8000/v1/chat/completions",
+    "timeout": null,
+    "stream": null,
+    "judge_strategy": "auto",
+    "judge_worker_num": 1,
+    "judge_model_args": {},
+    "analysis_report": false,
+    "use_sandbox": false,
+    "sandbox_type": "docker",
+    "sandbox_manager_config": {},
+    "sandbox_config": {}
+}
+2025-11-03 23:20:37 - evalscope - INFO: Start evaluating benchmark: data_collection
+2025-11-03 23:20:37 - evalscope - INFO: Loading dataset from modelscope: > dataset_name: 
+2025-11-03 23:20:58 - evalscope - INFO: Args: Task config is provided with TaskConfig type.

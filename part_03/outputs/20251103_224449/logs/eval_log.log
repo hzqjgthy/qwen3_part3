@@ -1,0 +1,5 @@
+2025-11-03 22:44:49 - evalscope - INFO: Running with native backend
+2025-11-03 22:44:49 - evalscope - INFO: Creating model /root/autodl-tmp/Qwen3/Qwen3-4B-unsloth-bnb-4bit with eval_type=service base_url=http://127.0.0.1:8000/v1/chat/completions, config={'timeout': 60000, 'batch_size': 128, 'stream': True, 'max_tokens': 30000, 'top_p': 0.95, 'temperature': 0.6, 'top_k': 20, 'n': 1}, model_args={}
+2025-11-03 22:47:29 - evalscope - WARNING: Deprecated: The `timeout` parameter is deprecated and will be removed in v1.1.0. Use `generation_config.timeout` instead.
+2025-11-03 22:47:29 - evalscope - WARNING: Deprecated: The `stream` parameter is deprecated and will be removed in v1.1.0. Use `generation_config.stream` instead.
+2025-11-03 22:47:29 - evalscope - INFO: Args: Task config is provided with TaskConfig type.
