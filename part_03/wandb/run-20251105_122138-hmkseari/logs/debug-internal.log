@@ -1,6 +1,0 @@
-{"time":"2025-11-05T12:21:38.803070176+08:00","level":"INFO","msg":"stream: starting","core version":"0.22.3"}
-{"time":"2025-11-05T12:21:41.493456822+08:00","level":"INFO","msg":"stream: created new stream","id":"hmkseari"}
-{"time":"2025-11-05T12:21:41.493586198+08:00","level":"INFO","msg":"handler: started","stream_id":"hmkseari"}
-{"time":"2025-11-05T12:21:41.493837245+08:00","level":"INFO","msg":"stream: started","id":"hmkseari"}
-{"time":"2025-11-05T12:21:41.493869917+08:00","level":"INFO","msg":"writer: started","stream_id":"hmkseari"}
-{"time":"2025-11-05T12:21:41.493879583+08:00","level":"INFO","msg":"sender: started","stream_id":"hmkseari"}

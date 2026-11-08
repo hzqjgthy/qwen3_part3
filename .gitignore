@@ -1,5 +1,12 @@
 cleaned_qwen3_dataset/
 
+# Qwen3 本地模型和训练评测产物
+/part_03/merged_model/
+/part_03/lora_adapters/
+/part_03/outputs/
+/part_03/unsloth_compiled_cache/
+/part_03/wandb/
+
 
 
 

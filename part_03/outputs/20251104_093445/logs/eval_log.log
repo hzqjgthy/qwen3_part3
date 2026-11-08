@@ -1,3 +1,0 @@
-2025-11-04 09:34:45 - evalscope - INFO: Running with native backend
-2025-11-04 09:34:45 - evalscope - INFO: Creating model /root/autodl-tmp/Qwen3/Qwen3-4B-unsloth-bnb-4bit with eval_type=service base_url=http://127.0.0.1:8000/v1/chat/completions, config={'timeout': 60000, 'batch_size': 128, 'stream': True, 'max_tokens': 30000, 'top_p': 0.95, 'temperature': 0.6, 'top_k': 20, 'n': 1}, model_args={}
-2025-11-04 09:35:30 - evalscope - INFO: Args: Task config is provided with TaskConfig type.
